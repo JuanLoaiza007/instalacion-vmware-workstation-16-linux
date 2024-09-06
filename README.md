@@ -1,10 +1,13 @@
 # Tutorial de instalación de VMware Workstation
 
-Para este tutorial se usa la versión de VMware Workstation 16.2.5. Cambie todas las apariciones de "16.2.5" por la versión que esté usando PERO primero revise si el repositorio de [mkubecek](https://github.com/mkubecek/vmware-host-modules/) tiene la versión que necesita, este repositorio será usado para instalar los módulos de VMware.
+> [!WARNING]  
+> Para este tutorial se usa la versión de VMware Workstation 16.2.5.
+>
+> Cambie todas las apariciones de "16.2.5" por la versión que desee **PERO** primero revise si el repositorio de [mkubecek](https://github.com/mkubecek/vmware-host-modules/) cuenta con esta version, puesto a que usaremos este repositorio para instalar los módulos.
 
 ## Requisitos
 
-    > sudo apt install build-essential linux-headers-$(uname -r) gcc-9 g++-9
+    sudo apt install build-essential linux-headers-$(uname -r) gcc-9 g++-9
 
 ## Instalación de VMware Workstation
 
@@ -16,7 +19,7 @@ https://softwareupdate.vmware.com/cds/vmw-desktop/ws/
 
 **Ejemplo de ubicacion (accediendo desde el navegador):**
 
-    > https://softwareupdate.vmware.com/cds/vmw-desktop/ws/16.2.5/20904516/linux/core/
+    https://softwareupdate.vmware.com/cds/vmw-desktop/ws/16.2.5/20904516/linux/core/
 
 Ahi puede hacer clic en el archivo [VMware-Workstation-16.2.5-20904516.x86_64.bundle.tar](https://softwareupdate.vmware.com/cds/vmw-desktop/ws/16.2.5/20904516/linux/core/VMware-Workstation-16.2.5-20904516.x86_64.bundle.tar) para empezar la descarga.
 
