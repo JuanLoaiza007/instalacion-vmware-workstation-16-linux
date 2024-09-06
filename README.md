@@ -72,7 +72,8 @@ El repositorio fuente ofrece su propia guía pero aprovecho este espacio para de
         make
 
 5.  Instalar los módulos (requiere privilegios de root):
-    sudo make install
+
+        sudo make install
 
 ## Activación
 
