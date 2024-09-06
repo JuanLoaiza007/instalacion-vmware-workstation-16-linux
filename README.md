@@ -53,7 +53,34 @@ Ahi puede hacer clic en el archivo [VMware-Workstation-16.2.5-20904516.x86_64.bu
 
 El repositorio fuente ofrece su propia guía pero aprovecho este espacio para dejar el método que he probado.
 
-### Método probado: Compilar e instalar desde el código fuente
+### Método probado: Reemplazar tarballs originales
+
+1.  Descargar el archivo tarball correspondiente:
+
+        wget https://github.com/mkubecek/vmware-host-modules/archive/workstation-16.2.5.tar.gz
+
+2.  Descomprimir el archivo:
+
+        tar -xzf workstation-16.2.5.tar.gz
+
+3.  Navegar al directorio descomprimido:
+
+        cd vmware-host-modules-workstation-16.2.5
+
+4.  Crear archivos tar para los módulos:
+
+        tar -cf vmmon.tar vmmon-only
+        tar -cf vmnet.tar vmnet-only
+
+5.  Copiar los archivos tar al directorio de módulos de VMware:
+
+        sudo cp -v vmmon.tar vmnet.tar /usr/lib/vmware/modules/source/
+
+6.  Ejecutar vmware-modconfig para instalar los módulos:
+
+        sudo vmware-modconfig --console --install-all
+
+### Método alternativo: Compilar e instalar desde el código fuente
 
 1.  Descargar el archivo tarball correspondiente:
 
@@ -71,7 +98,7 @@ El repositorio fuente ofrece su propia guía pero aprovecho este espacio para de
 
         make
 
-5.  Instalar los módulos (requiere privilegios de root):
+5.  Instalar los módulos:
 
         sudo make install
 
