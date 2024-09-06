@@ -2,16 +2,16 @@
 
 Este es un tutorial de instalación de VMware Workstation, este método se probó en Ubuntu 22.04 LTS con una version específica de VMware Workstation.
 
-> [!WARNING]  
-> Se usa la versión de VMware Workstation 16.2.5.
->
-> Cambie todas las apariciones de "16.2.5" por la versión que desee **PERO** primero revise si el repositorio de [mkubecek](https://github.com/mkubecek/vmware-host-modules/) cuenta con una rama para esta version (Ej: workstation-16.2.5), puesto a que usaremos este repositorio para instalar los módulos.
-
 > [!WARNING]
 >
 > **DISCLAIMER**
 >
 > Este tutorial se proporciona "tal cual" sin garantías de ningún tipo. No asumimos responsabilidad por daños directos, indirectos, incidentales o consecuentes que puedan surgir de su uso. Utilízalo bajo tu propio riesgo y verifica su idoneidad para tus necesidades antes de implementarlo.
+
+> [!IMPORTANT]  
+> Se usa la versión de VMware Workstation 16.2.5.
+>
+> Cambie todas las apariciones de "16.2.5" por la versión que desee **PERO** primero revise si el repositorio de [mkubecek](https://github.com/mkubecek/vmware-host-modules/) cuenta con una rama para esta version (Ej: workstation-16.2.5), puesto a que usaremos este repositorio para instalar los módulos.
 
 ## Requisitos
 
