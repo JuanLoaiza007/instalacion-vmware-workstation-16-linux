@@ -7,7 +7,7 @@
 
 ## Requisitos
 
-    sudo apt install build-essential linux-headers-$(uname -r) gcc-9 g++-9
+    sudo apt install build-essential linux-headers-$(uname -r) software-properties-common gcc g++
 
 ## Instalación de VMware Workstation
 
