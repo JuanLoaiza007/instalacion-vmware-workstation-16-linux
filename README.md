@@ -9,9 +9,9 @@ Este es un tutorial de instalación de VMware Workstation, este método se prob�
 
 > [!WARNING]
 >
-> DISCLAIMER
+> **DISCLAIMER**
 >
-> EstE tutorial se proporciona "tal cual" sin garantías de ningún tipo. No asumimos responsabilidad por daños directos, indirectos, incidentales o consecuentes que puedan surgir de su uso. Utilízalo bajo tu propio riesgo y verifica su idoneidad para tus necesidades antes de implementarlo.
+> Este tutorial se proporciona "tal cual" sin garantías de ningún tipo. No asumimos responsabilidad por daños directos, indirectos, incidentales o consecuentes que puedan surgir de su uso. Utilízalo bajo tu propio riesgo y verifica su idoneidad para tus necesidades antes de implementarlo.
 
 ## Requisitos
 
